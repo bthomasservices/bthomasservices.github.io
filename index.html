@@ -3,14 +3,18 @@
 <!--[if lte IE 9]><html class="no-js IE9 IE" lang="en-US"><![endif]-->
 <!--[if gt IE 9]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
 <style>
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
  body {background-color: #303030;}
  .header {
 	display: grid;
-	grid-template-columns: 140px auto 220px;
+	grid-template-columns: auto 140px auto 220px auto;
 	color: #c60035;
 	background-color: #999999;
 	overflow-x: hidden;
 	font-family:"Alice","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 5px;
 	}
  .logo {
 	display: grid;
@@ -30,6 +34,8 @@
 	display: grid;
 	grid-column: 25px auto 25px;
 	background-color: #c60035;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
 	}
 </style>
 <head>
@@ -42,23 +48,26 @@
 <body>
 			
 	<div class="header">
-
-		<div class="head left">P: <a href="tel:12482407491">(248) 240-7491</a></div>
-		<div class="head center"></div>
-		<div class="head right">E: <a href="mailto:bthomas3461@gmail.com">bthomas3461@gmail.com</a></div>
-
+		<div></div>
+		<div style="text-align: right;">P: <a href="tel:12482407491">(248) 240-7491</a></div>
+		<div></div>
+		<div style="text-align: left;">E: <a href="mailto:bthomas3461@gmail.com">bthomas3461@gmail.com</a></div>
+		<div></div>
 	</div>
 
 	<div class="logo">
-		<div></div>
-		<div><img src="images/blur_edges.jpg" class="center"></div>
-		<div></div>
+		
+		<div class="center"><img src="images/blur_edges.jpg"></div>
+		
 	</div>
 
 	<div class="text">
-		<p style="text-align: center;"><strong>MOBILE WELDING AVAILABLE &#8211; CALL (248) 240-7491 TO SCHEDULE AN APPOINTMENT</strong></p>
-		<p style="text-align: center; font-size: 14px;">Serving Southeast Michigan<br />
+		<p style="font-size: 16px; font-weight: 600"><strong>MOBILE WELDING AVAILABLE<br/>
+		CALL (248) 240-7491 TO SCHEDULE AN APPOINTMENT</strong></p>
+		
+		<p style="font-size: 16px; font-weight: 400">Serving Southeast Michigan<br />
 		Residential     &#8211;     Commercial</p>
+		
 		<div align="centered">
 			<table style="text-align: center; border-color: #a52626;" align="center">
 				<tbody>
